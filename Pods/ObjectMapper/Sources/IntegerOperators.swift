@@ -34,17 +34,18 @@ public func <- <T: SignedInteger>(left: inout T?, right: Map) {
 	}
 }
 
+//silenziato per warning
 /// ImplicitlyUnwrappedOptional SignedInteger mapping
-public func <- <T: SignedInteger>(left: inout T!, right: Map) {
-	switch right.mappingType {
-	case .fromJSON where right.isKeyPresent:
-		let value: T! = toSignedInteger(right.currentValue)
-		FromJSON.basicType(&left, object: value)
-	case .toJSON:
-		left >>> right
-	default: ()
-	}
-}
+//public func <- <T: SignedInteger>(left: inout T!, right: Map) {
+//    switch right.mappingType {
+//    case .fromJSON where right.isKeyPresent:
+//        let value: T! = toSignedInteger(right.currentValue)
+//        FromJSON.basicType(&left, object: value)
+//    case .toJSON:
+//        left >>> right
+//    default: ()
+//    }
+//}
 
 
 // MARK: - Unsigned Integer
@@ -74,17 +75,18 @@ public func <- <T: UnsignedInteger>(left: inout T?, right: Map) {
 	}
 }
 
+//silenziato per warning
 /// ImplicitlyUnwrappedOptional UnsignedInteger mapping
-public func <- <T: UnsignedInteger>(left: inout T!, right: Map) {
-	switch right.mappingType {
-	case .fromJSON where right.isKeyPresent:
-		let value: T! = toUnsignedInteger(right.currentValue)
-		FromJSON.basicType(&left, object: value)
-	case .toJSON:
-		left >>> right
-	default: ()
-	}
-}
+//public func <- <T: UnsignedInteger>(left: inout T!, right: Map) {
+//    switch right.mappingType {
+//    case .fromJSON where right.isKeyPresent:
+//        let value: T! = toUnsignedInteger(right.currentValue)
+//        FromJSON.basicType(&left, object: value)
+//    case .toJSON:
+//        left >>> right
+//    default: ()
+//    }
+//}
 
 // MARK: - Casting Utils
 

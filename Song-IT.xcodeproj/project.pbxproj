@@ -12,9 +12,6 @@
 		132B827B200FA9FF00258992 /* OnboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4B3BAF2007A8860089B0CE /* OnboardViewController.swift */; };
 		1354C739200FA61800ED68F4 /* ListInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1354C737200FA61400ED68F4 /* ListInterfaceController.swift */; };
 		1354C73C200FA79A00ED68F4 /* PostRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1354C73A200FA79700ED68F4 /* PostRow.swift */; };
-		135E0A9B2011FF3800EF91E1 /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135E0A9A2011FF3800EF91E1 /* PlaylistViewController.swift */; };
-		135E0A9D201205F200EF91E1 /* PlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135E0A9C201205F200EF91E1 /* PlayerManager.swift */; };
-		135E0AA220120A7900EF91E1 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135E0AA120120A7900EF91E1 /* PlayerViewController.swift */; };
 		1366265A20122CBC00C35F9F /* WatchShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1366265920122CBC00C35F9F /* WatchShared.swift */; };
 		136877081FF42F080006737A /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136877071FF42F080006737A /* LaunchViewController.swift */; };
 		1368770D1FF430300006737A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1368770B1FF430300006737A /* Main.storyboard */; };
@@ -91,9 +88,6 @@
 		1319C4F020000A120076B883 /* WatchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchData.swift; sourceTree = "<group>"; };
 		1354C737200FA61400ED68F4 /* ListInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListInterfaceController.swift; sourceTree = "<group>"; };
 		1354C73A200FA79700ED68F4 /* PostRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRow.swift; sourceTree = "<group>"; };
-		135E0A9A2011FF3800EF91E1 /* PlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
-		135E0A9C201205F200EF91E1 /* PlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerManager.swift; sourceTree = "<group>"; };
-		135E0AA120120A7900EF91E1 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		1366265920122CBC00C35F9F /* WatchShared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchShared.swift; sourceTree = "<group>"; };
 		136877071FF42F080006737A /* LaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		1368770C1FF430300006737A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -224,10 +218,7 @@
 				1319C4F020000A120076B883 /* WatchData.swift */,
 				13F47D902006225900D42CB4 /* GoogleService-Info.plist */,
 				7EA3FE9C1FD7F52100F5B864 /* DataManager.swift */,
-				135E0A9C201205F200EF91E1 /* PlayerManager.swift */,
 				1368770B1FF430300006737A /* Main.storyboard */,
-				135E0AA120120A7900EF91E1 /* PlayerViewController.swift */,
-				135E0A9A2011FF3800EF91E1 /* PlaylistViewController.swift */,
 				7E4B3BAF2007A8860089B0CE /* OnboardViewController.swift */,
 				7E1B25661FFBF52100AF198D /* DetailViewController.swift */,
 				1384CBB61FF6BEEA008F87E4 /* SelectMood.swift */,
@@ -594,7 +585,6 @@
 			files = (
 				7E1B25671FFBF52100AF198D /* DetailViewController.swift in Sources */,
 				139B21101FE69FE2005A5C59 /* SetViewSize.swift in Sources */,
-				135E0A9B2011FF3800EF91E1 /* PlaylistViewController.swift in Sources */,
 				132B827B200FA9FF00258992 /* OnboardViewController.swift in Sources */,
 				1384CBB71FF6BEEA008F87E4 /* SelectMood.swift in Sources */,
 				1319C4F120000A120076B883 /* WatchData.swift in Sources */,
@@ -602,11 +592,9 @@
 				7EA3FEA21FD7F99100F5B864 /* PostItCollectionViewCell.swift in Sources */,
 				7E53794E1FD8890500CB87D5 /* AddViewController.swift in Sources */,
 				7EA3FE9D1FD7F52100F5B864 /* DataManager.swift in Sources */,
-				135E0A9D201205F200EF91E1 /* PlayerManager.swift in Sources */,
 				7EA3FE891FD7E56A00F5B864 /* AppDelegate.swift in Sources */,
 				136877081FF42F080006737A /* LaunchViewController.swift in Sources */,
 				7EA3FE9B1FD7E83700F5B864 /* PostItModel.swift in Sources */,
-				135E0AA220120A7900EF91E1 /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
