@@ -22,6 +22,7 @@ class PostItCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var lButton: UIButton!
     @IBOutlet weak var dButton: UIButton!
     @IBOutlet weak var turnButton: UIButton!
+    @IBOutlet weak var playerButton: UIButton!
     
     var postItModel: PostItModel!
     var indexPath: IndexPath!
@@ -81,6 +82,7 @@ class PostItCollectionViewCell: UICollectionViewCell {
             self.ndislikeLabel.isHidden = true
             self.lButton.isHidden = true
             self.dButton.isHidden = true
+            self.playerButton.isHidden = true
             
             UICollectionViewCell.transition(with: self, duration: 0.3, options: .transitionFlipFromRight, animations: nil, completion: nil)
             
@@ -97,6 +99,7 @@ class PostItCollectionViewCell: UICollectionViewCell {
             self.ndislikeLabel.isHidden = false
             self.lButton.isHidden = false
             self.dButton.isHidden = false
+            self.playerButton.isHidden = false
             
             UICollectionViewCell.transition(with: self, duration: 0.3, options: .transitionFlipFromLeft, animations: nil, completion: nil)
             
