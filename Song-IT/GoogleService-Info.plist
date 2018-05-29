@@ -7,34 +7,34 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>1091123714330-0r4veop3k4s762b3tokqdo0rk9sjc6ni.apps.googleusercontent.com</string>
+	<string>1064545466261-og59vs5ssrbla55naokia4ho2vetq9st.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.1091123714330-0r4veop3k4s762b3tokqdo0rk9sjc6ni</string>
+	<string>com.googleusercontent.apps.1064545466261-og59vs5ssrbla55naokia4ho2vetq9st</string>
 	<key>API_KEY</key>
-	<string>AIzaSyBQY9BcnAFjpfLla3QYq4WNyMAwGOqUsLY</string>
+	<string>AIzaSyB7OEP2mus8j65h72kieCcldTLqj32ZyQg</string>
 	<key>GCM_SENDER_ID</key>
-	<string>1091123714330</string>
+	<string>1064545466261</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.giobass.SongItdb</string>
+	<string>com.SongItdb</string>
 	<key>PROJECT_ID</key>
-	<string>song-it-a63c3</string>
+	<string>song-it</string>
 	<key>STORAGE_BUCKET</key>
-	<string>song-it-a63c3.appspot.com</string>
+	<string>song-it.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_APPINVITE_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_GCM_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:1091123714330:ios:a8087b319ac78d7e</string>
+	<string>1:1064545466261:ios:01f8b36a06b622bd</string>
 	<key>DATABASE_URL</key>
-	<string>https://song-it-a63c3.firebaseio.com</string>
+	<string>https://song-it.firebaseio.com/</string>
 </dict>
 </plist>

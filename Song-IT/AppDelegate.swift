@@ -23,8 +23,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         FirebaseApp.configure() ///configure the database
         DataManager.shared.loadData() ////Load db data in the array
-        IQKeyboardManager.sharedManager().enable = true ///Enable pod for keyboard
-        IQKeyboardManager.sharedManager().enableAutoToolbar = false ///Disable toolbar
+        IQKeyboardManager.shared.enable = true ///Enable pod for keyboard
+        IQKeyboardManager.shared.enableAutoToolbar = false ///Disable toolbar
         
         //Notification also when the app is close
         if #available(iOS 10.0, *) {
