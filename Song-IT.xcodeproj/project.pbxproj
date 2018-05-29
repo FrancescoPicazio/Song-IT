@@ -162,8 +162,8 @@
 			isa = PBXGroup;
 			children = (
 				1382D6601FFFB3C900B52EA7 /* Interface.storyboard */,
-				1382D6631FFFB3C900B52EA7 /* Assets.xcassets */,
 				1382D6651FFFB3C900B52EA7 /* Info.plist */,
+				1382D6631FFFB3C900B52EA7 /* Assets.xcassets */,
 			);
 			path = "Song It";
 			sourceTree = "<group>";
