@@ -87,6 +87,7 @@
 		0C64CCE3F7AA6C3EEBAAAE8D /* Pods_Song_IT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Song_IT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1319C4F020000A120076B883 /* WatchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchData.swift; sourceTree = "<group>"; };
 		13251DDA20BD811900F20E13 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		13251E1620BDA22800F20E13 /* Song-IT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Song-IT.entitlements"; sourceTree = "<group>"; };
 		1354C737200FA61400ED68F4 /* ListInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListInterfaceController.swift; sourceTree = "<group>"; };
 		1354C73A200FA79700ED68F4 /* PostRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRow.swift; sourceTree = "<group>"; };
 		1366265920122CBC00C35F9F /* WatchShared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchShared.swift; sourceTree = "<group>"; };
@@ -209,6 +210,7 @@
 		7EA3FE871FD7E56A00F5B864 /* Song-IT */ = {
 			isa = PBXGroup;
 			children = (
+				13251E1620BDA22800F20E13 /* Song-IT.entitlements */,
 				7EA3FE881FD7E56A00F5B864 /* AppDelegate.swift */,
 				7EA3FEA11FD7F99100F5B864 /* PostItCollectionViewCell.swift */,
 				7E53794D1FD8890500CB87D5 /* AddViewController.swift */,
@@ -351,6 +353,9 @@
 								enabled = 0;
 							};
 							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
 								enabled = 1;
 							};
 						};
@@ -771,6 +776,7 @@
 			baseConfigurationReference = 5CB54BB31F29967CF06B87BB /* Pods-Song-IT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Song-IT/Song-IT.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3XG9AARB55;
@@ -790,6 +796,7 @@
 			baseConfigurationReference = C25C0FAE43858653AB3CD8A2 /* Pods-Song-IT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Song-IT/Song-IT.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3XG9AARB55;

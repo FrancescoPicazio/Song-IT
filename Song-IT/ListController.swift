@@ -49,7 +49,9 @@ class ListController: UIViewController, UICollectionViewDataSource , UICollectio
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        WatchData.shared.inizialize()
+        if UI_USER_INTERFACE_IDIOM() != UIUserInterfaceIdiom.pad {
+            WatchData.shared.inizialize()
+        }
         
         let postData = NSKeyedArchiver.archivedData(withRootObject: DataManager.shared.array)
         

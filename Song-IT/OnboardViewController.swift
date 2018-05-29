@@ -15,7 +15,7 @@ class OnboardViewController: UIViewController {
     var titleArray: [String] = ["Welcome to Song-it!", "Share", "Discover"]
 
     
-    var subTitleArray: [String] = ["Music brings us emotions.\nLet the emotions bring you\nsome music!", "Share with others any song that\nyou like and the mood that\ninspire you. Every post\nwill be deleted in 24h.", "Discover new songs and \ndifferent moods.\nTap the stickers to read\ntheir comments,and rate\nthem if you want"]
+    var subTitleArray: [String] = ["Music brings us emotions.\nLet the emotions bring you\nsome music!", "Share with others any song that\nyou like and the mood that\ninspire you.", "Discover new songs and \ndifferent moods.\nTap the stickers to read\ntheir comments,and rate\nthem if you want"]
     
     var gradiant: CAGradientLayer = {
         //Gradiant for the background view
