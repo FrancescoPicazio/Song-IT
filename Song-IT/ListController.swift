@@ -8,21 +8,9 @@
 
 import UIKit
 import Firebase
-import WatchConnectivity
 
 
-class ListController: UIViewController, UICollectionViewDataSource , UICollectionViewDelegate, DataManagerDelegate , UIViewControllerPreviewingDelegate, WCSessionDelegate{
-    func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
-        
-    }
-    
-    func sessionDidBecomeInactive(_ session: WCSession) {
-        
-    }
-    
-    func sessionDidDeactivate(_ session: WCSession) {
-        
-    }
+class ListController: UIViewController, UICollectionViewDataSource , UICollectionViewDelegate, DataManagerDelegate , UIViewControllerPreviewingDelegate {
     
     
     @IBOutlet weak var addButton: UIButton!
@@ -42,21 +30,11 @@ class ListController: UIViewController, UICollectionViewDataSource , UICollectio
                                           message: "Make sure your device is connected to the internet",
                                           preferredStyle: .alert)
     
-    let session = WCSession.default
-    
+   
     private let refreshControl = UIRefreshControl()  ///refresh control
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        if UI_USER_INTERFACE_IDIOM() != UIUserInterfaceIdiom.pad {
-            WatchData.shared.inizialize()
-        }
-        
-        let postData = NSKeyedArchiver.archivedData(withRootObject: DataManager.shared.array)
-        
-        WatchData.shared.applicationContext(iPhoneAppContext: ["posts" : postData])
-        
         
         DataManager.shared.delegate = self  ////set the delegate
         DataManager.shared.listCont = self
@@ -196,15 +174,7 @@ class ListController: UIViewController, UICollectionViewDataSource , UICollectio
     ////function the download data from database
     private func fetchPostData() {
         DataManager.shared.loadData()
-        
-        //Refresh watch
-        //let postData =  NSKeyedArchiver.archivedData(withRootObject: DataManager.shared.array)
-        
-        let postData = NSKeyedArchiver.archivedData(withRootObject: DataManager.shared.array)
-        
-        WatchData.shared.applicationContext(iPhoneAppContext: ["posts" : postData])
-        
-        
+       
         DispatchQueue.main.async {
             print("Fetch Data OK")
         }

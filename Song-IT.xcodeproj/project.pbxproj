@@ -8,25 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		08ACE40E8BCD402E1563FADD /* Pods_Song_IT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C64CCE3F7AA6C3EEBAAAE8D /* Pods_Song_IT.framework */; };
-		1319C4F120000A120076B883 /* WatchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1319C4F020000A120076B883 /* WatchData.swift */; };
 		13251DDB20BD811900F20E13 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13251DDA20BD811900F20E13 /* GoogleService-Info.plist */; };
 		132B827B200FA9FF00258992 /* OnboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4B3BAF2007A8860089B0CE /* OnboardViewController.swift */; };
-		1354C739200FA61800ED68F4 /* ListInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1354C737200FA61400ED68F4 /* ListInterfaceController.swift */; };
-		1354C73C200FA79A00ED68F4 /* PostRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1354C73A200FA79700ED68F4 /* PostRow.swift */; };
-		1366265A20122CBC00C35F9F /* WatchShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1366265920122CBC00C35F9F /* WatchShared.swift */; };
 		136877081FF42F080006737A /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136877071FF42F080006737A /* LaunchViewController.swift */; };
 		1368770D1FF430300006737A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1368770B1FF430300006737A /* Main.storyboard */; };
-		1382D6621FFFB3C900B52EA7 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1382D6601FFFB3C900B52EA7 /* Interface.storyboard */; };
-		1382D6641FFFB3C900B52EA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1382D6631FFFB3C900B52EA7 /* Assets.xcassets */; };
-		1382D6701FFFB3CA00B52EA7 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382D66F1FFFB3CA00B52EA7 /* InterfaceController.swift */; };
-		1382D6721FFFB3CA00B52EA7 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382D6711FFFB3CA00B52EA7 /* ExtensionDelegate.swift */; };
-		1382D6741FFFB3CA00B52EA7 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382D6731FFFB3CA00B52EA7 /* NotificationController.swift */; };
-		1382D6761FFFB3CA00B52EA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1382D6751FFFB3CA00B52EA7 /* Assets.xcassets */; };
-		1382D67B1FFFB3CA00B52EA7 /* Song It.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1382D65E1FFFB3C900B52EA7 /* Song It.app */; };
-		1382D6841FFFB4D200B52EA7 /* PostItModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1382D6831FFFB4D200B52EA7 /* PostItModel.swift */; };
 		1384CBB71FF6BEEA008F87E4 /* SelectMood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1384CBB61FF6BEEA008F87E4 /* SelectMood.swift */; };
 		139B21101FE69FE2005A5C59 /* SetViewSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139B210F1FE69FE2005A5C59 /* SetViewSize.swift */; };
-		369FDF12CE96DF653737DAF3 /* Pods_Song_It.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 617AEB4BEE92372D162720EE /* Pods_Song_It.framework */; };
 		7E1B25671FFBF52100AF198D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B25661FFBF52100AF198D /* DetailViewController.swift */; };
 		7E53794E1FD8890500CB87D5 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E53794D1FD8890500CB87D5 /* AddViewController.swift */; };
 		7EA381CF1FE4206600A8FDC1 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 7EA381CE1FE4206600A8FDC1 /* Sounds */; };
@@ -37,26 +24,7 @@
 		7EA3FE9B1FD7E83700F5B864 /* PostItModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA3FE9A1FD7E83700F5B864 /* PostItModel.swift */; };
 		7EA3FE9D1FD7F52100F5B864 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA3FE9C1FD7F52100F5B864 /* DataManager.swift */; };
 		7EA3FEA21FD7F99100F5B864 /* PostItCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA3FEA11FD7F99100F5B864 /* PostItCollectionViewCell.swift */; };
-		7EB05E2C200627B100D61EA9 /* Song It Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1382D66A1FFFB3CA00B52EA7 /* Song It Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		8FD3DE68049F58249C5DE72D /* Pods_Song_It_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5349DE5F67A6B0FC84E612A /* Pods_Song_It_Extension.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		1382D6791FFFB3CA00B52EA7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7EA3FE7D1FD7E56A00F5B864 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1382D65D1FFFB3C900B52EA7;
-			remoteInfo = "Song It";
-		};
-		7EB05E2D200627B100D61EA9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7EA3FE7D1FD7E56A00F5B864 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1382D6691FFFB3CA00B52EA7;
-			remoteInfo = "Song It Extension";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		1384CBDF1FF92909008F87E4 /* Embed Watch Content */ = {
@@ -65,46 +33,17 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				1382D67B1FFFB3CA00B52EA7 /* Song It.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7EB05E2F200627B100D61EA9 /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				7EB05E2C200627B100D61EA9 /* Song It Extension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0C64CCE3F7AA6C3EEBAAAE8D /* Pods_Song_IT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Song_IT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1319C4F020000A120076B883 /* WatchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchData.swift; sourceTree = "<group>"; };
 		13251DDA20BD811900F20E13 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		13251E1620BDA22800F20E13 /* Song-IT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Song-IT.entitlements"; sourceTree = "<group>"; };
-		1354C737200FA61400ED68F4 /* ListInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListInterfaceController.swift; sourceTree = "<group>"; };
-		1354C73A200FA79700ED68F4 /* PostRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRow.swift; sourceTree = "<group>"; };
-		1366265920122CBC00C35F9F /* WatchShared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchShared.swift; sourceTree = "<group>"; };
 		136877071FF42F080006737A /* LaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		1368770C1FF430300006737A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1382D65E1FFFB3C900B52EA7 /* Song It.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Song It.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1382D6611FFFB3C900B52EA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		1382D6631FFFB3C900B52EA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1382D6651FFFB3C900B52EA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1382D66A1FFFB3CA00B52EA7 /* Song It Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Song It Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1382D66F1FFFB3CA00B52EA7 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
-		1382D6711FFFB3CA00B52EA7 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
-		1382D6731FFFB3CA00B52EA7 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
-		1382D6751FFFB3CA00B52EA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1382D6771FFFB3CA00B52EA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1382D6781FFFB3CA00B52EA7 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		1382D6831FFFB4D200B52EA7 /* PostItModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostItModel.swift; sourceTree = "<group>"; };
 		1384CBB61FF6BEEA008F87E4 /* SelectMood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMood.swift; sourceTree = "<group>"; };
 		139B210F1FE69FE2005A5C59 /* SetViewSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetViewSize.swift; sourceTree = "<group>"; };
 		3503E313EACF8806AA2023A2 /* Pods-Song It Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Song It Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-Song It Extension/Pods-Song It Extension.release.xcconfig"; sourceTree = "<group>"; };
@@ -131,22 +70,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1382D6671FFFB3CA00B52EA7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8FD3DE68049F58249C5DE72D /* Pods_Song_It_Extension.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4158FC673E4DB5968A9A74EF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				369FDF12CE96DF653737DAF3 /* Pods_Song_It.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7EA3FE821FD7E56A00F5B864 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -158,39 +81,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1382D65F1FFFB3C900B52EA7 /* Song It */ = {
-			isa = PBXGroup;
-			children = (
-				1382D6601FFFB3C900B52EA7 /* Interface.storyboard */,
-				1382D6651FFFB3C900B52EA7 /* Info.plist */,
-				1382D6631FFFB3C900B52EA7 /* Assets.xcassets */,
-			);
-			path = "Song It";
-			sourceTree = "<group>";
-		};
-		1382D66E1FFFB3CA00B52EA7 /* Song It Extension */ = {
-			isa = PBXGroup;
-			children = (
-				1354C73A200FA79700ED68F4 /* PostRow.swift */,
-				1382D66F1FFFB3CA00B52EA7 /* InterfaceController.swift */,
-				1354C737200FA61400ED68F4 /* ListInterfaceController.swift */,
-				1366265920122CBC00C35F9F /* WatchShared.swift */,
-				1382D6831FFFB4D200B52EA7 /* PostItModel.swift */,
-				1382D6711FFFB3CA00B52EA7 /* ExtensionDelegate.swift */,
-				1382D6731FFFB3CA00B52EA7 /* NotificationController.swift */,
-				1382D6751FFFB3CA00B52EA7 /* Assets.xcassets */,
-				1382D6771FFFB3CA00B52EA7 /* Info.plist */,
-				1382D6781FFFB3CA00B52EA7 /* PushNotificationPayload.apns */,
-			);
-			path = "Song It Extension";
-			sourceTree = "<group>";
-		};
 		7EA3FE7C1FD7E56A00F5B864 = {
 			isa = PBXGroup;
 			children = (
 				7EA3FE871FD7E56A00F5B864 /* Song-IT */,
-				1382D65F1FFFB3C900B52EA7 /* Song It */,
-				1382D66E1FFFB3CA00B52EA7 /* Song It Extension */,
 				7EA3FE861FD7E56A00F5B864 /* Products */,
 				B46DC0E5DFA64208296C4741 /* Pods */,
 				DC9C7BDF43F7CED5C250D21D /* Frameworks */,
@@ -201,8 +95,6 @@
 			isa = PBXGroup;
 			children = (
 				7EA3FE851FD7E56A00F5B864 /* Song-IT.app */,
-				1382D65E1FFFB3C900B52EA7 /* Song It.app */,
-				1382D66A1FFFB3CA00B52EA7 /* Song It Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -210,14 +102,12 @@
 		7EA3FE871FD7E56A00F5B864 /* Song-IT */ = {
 			isa = PBXGroup;
 			children = (
-				13251E1620BDA22800F20E13 /* Song-IT.entitlements */,
 				7EA3FE881FD7E56A00F5B864 /* AppDelegate.swift */,
 				7EA3FEA11FD7F99100F5B864 /* PostItCollectionViewCell.swift */,
 				7E53794D1FD8890500CB87D5 /* AddViewController.swift */,
 				7EA3FE8A1FD7E56A00F5B864 /* ListController.swift */,
 				136877071FF42F080006737A /* LaunchViewController.swift */,
 				7EA3FE9A1FD7E83700F5B864 /* PostItModel.swift */,
-				1319C4F020000A120076B883 /* WatchData.swift */,
 				13251DDA20BD811900F20E13 /* GoogleService-Info.plist */,
 				7EA3FE9C1FD7F52100F5B864 /* DataManager.swift */,
 				1368770B1FF430300006737A /* Main.storyboard */,
@@ -259,43 +149,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1382D65D1FFFB3C900B52EA7 /* Song It */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1382D6821FFFB3CA00B52EA7 /* Build configuration list for PBXNativeTarget "Song It" */;
-			buildPhases = (
-				C20763C362703E036954E685 /* [CP] Check Pods Manifest.lock */,
-				1382D65C1FFFB3C900B52EA7 /* Resources */,
-				4158FC673E4DB5968A9A74EF /* Frameworks */,
-				7EB05E2F200627B100D61EA9 /* Embed App Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7EB05E2E200627B100D61EA9 /* PBXTargetDependency */,
-			);
-			name = "Song It";
-			productName = "Song It";
-			productReference = 1382D65E1FFFB3C900B52EA7 /* Song It.app */;
-			productType = "com.apple.product-type.application.watchapp2";
-		};
-		1382D6691FFFB3CA00B52EA7 /* Song It Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1382D6801FFFB3CA00B52EA7 /* Build configuration list for PBXNativeTarget "Song It Extension" */;
-			buildPhases = (
-				BC1DA154B303C10BF688BA96 /* [CP] Check Pods Manifest.lock */,
-				1382D6661FFFB3CA00B52EA7 /* Sources */,
-				1382D6671FFFB3CA00B52EA7 /* Frameworks */,
-				1382D6681FFFB3CA00B52EA7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Song It Extension";
-			productName = "Song It Extension";
-			productReference = 1382D66A1FFFB3CA00B52EA7 /* Song It Extension.appex */;
-			productType = "com.apple.product-type.watchkit2-extension";
-		};
 		7EA3FE841FD7E56A00F5B864 /* Song-IT */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7EA3FE971FD7E56A00F5B864 /* Build configuration list for PBXNativeTarget "Song-IT" */;
@@ -310,7 +163,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				1382D67A1FFFB3CA00B52EA7 /* PBXTargetDependency */,
 			);
 			name = "Song-IT";
 			productName = "Song-IT";
@@ -327,24 +179,6 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Giovanni Bassolino";
 				TargetAttributes = {
-					1382D65D1FFFB3C900B52EA7 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						SystemCapabilities = {
-							com.apple.ApplicationGroups.iOS = {
-								enabled = 0;
-							};
-						};
-					};
-					1382D6691FFFB3CA00B52EA7 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						SystemCapabilities = {
-							com.apple.ApplicationGroups.iOS = {
-								enabled = 0;
-							};
-						};
-					};
 					7EA3FE841FD7E56A00F5B864 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
@@ -376,30 +210,11 @@
 			projectRoot = "";
 			targets = (
 				7EA3FE841FD7E56A00F5B864 /* Song-IT */,
-				1382D65D1FFFB3C900B52EA7 /* Song It */,
-				1382D6691FFFB3CA00B52EA7 /* Song It Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1382D65C1FFFB3C900B52EA7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1382D6641FFFB3C900B52EA7 /* Assets.xcassets in Resources */,
-				1382D6621FFFB3C900B52EA7 /* Interface.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1382D6681FFFB3CA00B52EA7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1382D6761FFFB3CA00B52EA7 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7EA3FE831FD7E56A00F5B864 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -467,59 +282,9 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Song-IT/Pods-Song-IT-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BC1DA154B303C10BF688BA96 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Song It Extension-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C20763C362703E036954E685 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Song It-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1382D6661FFFB3CA00B52EA7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1382D6841FFFB4D200B52EA7 /* PostItModel.swift in Sources */,
-				1382D6741FFFB3CA00B52EA7 /* NotificationController.swift in Sources */,
-				1382D6721FFFB3CA00B52EA7 /* ExtensionDelegate.swift in Sources */,
-				1382D6701FFFB3CA00B52EA7 /* InterfaceController.swift in Sources */,
-				1354C73C200FA79A00ED68F4 /* PostRow.swift in Sources */,
-				1354C739200FA61800ED68F4 /* ListInterfaceController.swift in Sources */,
-				1366265A20122CBC00C35F9F /* WatchShared.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7EA3FE811FD7E56A00F5B864 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -528,7 +293,6 @@
 				139B21101FE69FE2005A5C59 /* SetViewSize.swift in Sources */,
 				132B827B200FA9FF00258992 /* OnboardViewController.swift in Sources */,
 				1384CBB71FF6BEEA008F87E4 /* SelectMood.swift in Sources */,
-				1319C4F120000A120076B883 /* WatchData.swift in Sources */,
 				7EA3FE8B1FD7E56A00F5B864 /* ListController.swift in Sources */,
 				7EA3FEA21FD7F99100F5B864 /* PostItCollectionViewCell.swift in Sources */,
 				7E53794E1FD8890500CB87D5 /* AddViewController.swift in Sources */,
@@ -541,19 +305,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		1382D67A1FFFB3CA00B52EA7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1382D65D1FFFB3C900B52EA7 /* Song It */;
-			targetProxy = 1382D6791FFFB3CA00B52EA7 /* PBXContainerItemProxy */;
-		};
-		7EB05E2E200627B100D61EA9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1382D6691FFFB3CA00B52EA7 /* Song It Extension */;
-			targetProxy = 7EB05E2D200627B100D61EA9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
 		1368770B1FF430300006737A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -561,14 +312,6 @@
 				1368770C1FF430300006737A /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1382D6601FFFB3C900B52EA7 /* Interface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1382D6611FFFB3C900B52EA7 /* Base */,
-			);
-			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 		7EA3FE911FD7E56A00F5B864 /* LaunchScreen.storyboard */ = {
@@ -582,84 +325,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1382D67C1FFFB3CA00B52EA7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8CDC696C203A5EA9A6AE54E /* Pods-Song It.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3XG9AARB55;
-				IBSC_MODULE = Song_It_Extension;
-				INFOPLIST_FILE = "Song It/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.SongItdb.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.2;
-			};
-			name = Debug;
-		};
-		1382D67D1FFFB3CA00B52EA7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F896AAC7C6DA456F45FD49E5 /* Pods-Song It.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3XG9AARB55;
-				IBSC_MODULE = Song_It_Extension;
-				INFOPLIST_FILE = "Song It/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.SongItdb.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.2;
-			};
-			name = Release;
-		};
-		1382D67E1FFFB3CA00B52EA7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2CFAF53432A8B2B399261F2 /* Pods-Song It Extension.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3XG9AARB55;
-				INFOPLIST_FILE = "Song It Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.SongItdb.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.2;
-			};
-			name = Debug;
-		};
-		1382D67F1FFFB3CA00B52EA7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3503E313EACF8806AA2023A2 /* Pods-Song It Extension.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3XG9AARB55;
-				INFOPLIST_FILE = "Song It Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.SongItdb.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.2;
-			};
-			name = Release;
-		};
 		7EA3FE951FD7E56A00F5B864 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -776,7 +441,6 @@
 			baseConfigurationReference = 5CB54BB31F29967CF06B87BB /* Pods-Song-IT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Song-IT/Song-IT.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3XG9AARB55;
@@ -796,7 +460,6 @@
 			baseConfigurationReference = C25C0FAE43858653AB3CD8A2 /* Pods-Song-IT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Song-IT/Song-IT.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3XG9AARB55;
@@ -814,24 +477,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1382D6801FFFB3CA00B52EA7 /* Build configuration list for PBXNativeTarget "Song It Extension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1382D67E1FFFB3CA00B52EA7 /* Debug */,
-				1382D67F1FFFB3CA00B52EA7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1382D6821FFFB3CA00B52EA7 /* Build configuration list for PBXNativeTarget "Song It" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1382D67C1FFFB3CA00B52EA7 /* Debug */,
-				1382D67D1FFFB3CA00B52EA7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		7EA3FE801FD7E56A00F5B864 /* Build configuration list for PBXProject "Song-IT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
